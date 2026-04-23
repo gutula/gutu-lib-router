@@ -3,6 +3,7 @@ const summary = {
   "repoName": "gutu-lib-router",
   "packageId": "router",
   "displayName": "Router",
+  "packageCount": 1,
   "group": "Core Data And Query",
   "maturity": "Baseline",
   "description": "Canonical router wrapper with admin guards and safe zone links.",

@@ -35,6 +35,7 @@ Provides reusable routing contracts and helpers so applications can share naviga
 | Package ID | `router` |
 | Display Name | Router |
 | Import Name | `@platform/router` |
+| Canonical Namespace Target | `@gutu/router` |
 | Version | `0.1.0` |
 | UI Surface | Headless typed exports |
 | Consumption Model | Imports + typed helpers |
@@ -48,6 +49,7 @@ Provides reusable routing contracts and helpers so applications can share naviga
 | Dev Dependencies | None |
 | React Runtime | No |
 | Workspace Scoped | Yes |
+| Legacy Compatibility IDs | `@platform/router` |
 
 ### Dependency interpretation
 

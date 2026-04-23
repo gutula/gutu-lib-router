@@ -45,6 +45,7 @@ Why this tier:
 | --- | --- |
 | Package ID | `router` |
 | Import Name | `@platform/router` |
+| Canonical Namespace Target | `@gutu/router` |
 | UI Surface | Headless typed exports |
 | Consumption Model | Imports + typed helpers |
 | Verification | Build+Typecheck+Lint+Test |
@@ -54,10 +55,18 @@ Why this tier:
 | Field | Value |
 | --- | --- |
 | Package Name | `@platform/router` |
+| Canonical Namespace Target | `@gutu/router` |
+| Legacy Compatibility IDs | `@platform/router` |
 | Direct Dependencies | `@platform/ui-router` |
 | Peer Dependencies | None |
 | React Runtime | No |
 | Workspace Requirement | Compatible Gutu workspace required |
+
+## Namespace Policy
+
+- `@gutu/*` is the canonical public framework namespace for new work.
+- This repo currently publishes `@platform/router` as the legacy compatibility package id while the migration to `@gutu/router` is completed.
+- Catalog metadata carries the canonical target id so dashboards, docs, and future tooling can present one uniform Gutu namespace without breaking current consumers.
 
 ## Capability Matrix
 
